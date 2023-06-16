@@ -2,14 +2,13 @@
 
 # This script is used to stow files in the home directory.
 if [[ -z $STOW_FOLDERS ]]; then
-    STOW_FOLDERS="tmux"
+    STOW_FOLDERS="tmux,zsh"
 fi
 
 if [[ -z $DOTFILES ]]; then
     DOTFILES=$HOME/.dotfiles
 fi
-echo "stow folders: $STOW_FOLDERS"
-echo "dotfiles: $DOTFILES"
+
 for folder in $(echo $STOW_FOLDERS | sed "s/,/ /g")
 do
     echo "stow $folder"
