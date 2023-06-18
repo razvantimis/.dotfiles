@@ -112,7 +112,7 @@ export PATH="$HOME/Library/Python/3.9/bin:${PATH}"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alsia vim="nvim"
+alias vim="nvim"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
