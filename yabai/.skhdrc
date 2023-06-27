@@ -11,7 +11,7 @@
 # Shortcuts to launch / focus on VS code, chrome etc.
 alt - v : open /Applications/Visual\ Studio\ Code.app
 alt - w : open /Applications/Google\ Chrome.app
-alt - t : open /Applications/iTerm.app
+alt - t : open /Applications/Alacritty.app
 
 # focus window
 alt - h : yabai -m window --focus west
@@ -75,7 +75,7 @@ shift + alt - 9 : yabai -m window --space 9; yabai -m space --focus 9
 
 # create desktop, move window and follow focus - uses jq for parsing json (brew install jq)
 shift + alt - n : yabai -m space --create && \
-                   index="$(yabai -m query --spaces --display | jq 'map(select(."native-fullscreen" == 0))[-1].index')" && \
+                   index="$(yabai -m query --spaces --display | jq 'map(select(."windows"))[-1].index')" && \
                    yabai -m window --space "${index}" && \
                    yabai -m space --focus "${index}"
 
