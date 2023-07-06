@@ -106,6 +106,8 @@ export PATH="$HOME/Library/Python/3.9/bin:${PATH}"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
