@@ -102,6 +102,9 @@ export PATH="$PNPM_HOME:$PATH"
 export PATH="${M2_HOME}/bin:${PATH}"
 export PATH="$HOME/Library/Python/3.9/bin:${PATH}"
 
+# Setup rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
