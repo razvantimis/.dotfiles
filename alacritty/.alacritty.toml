@@ -106,11 +106,6 @@ key = "Tab"
 mods = "Control"
 
 [[keyboard.bindings]]
-chars = "\u0000p"
-key = "Grave"
-mods = "Control"
-
-[[keyboard.bindings]]
 chars = "\u0000,"
 key = "Comma"
 mods = "Command"
