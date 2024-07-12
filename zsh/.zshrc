@@ -123,3 +123,5 @@ alias vim="nvim"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export PATH="/opt/homebrew/opt/postgresql@10/bin:$PATH"
+# $GOPATH
+export GOPATH=$HOME/go
