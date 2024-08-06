@@ -10,7 +10,7 @@
 
 # Shortcuts to launch / focus on VS code, chrome etc.
 alt - v : open /Applications/Visual\ Studio\ Code.app
-alt - w : open /Applications/Google\ Chrome.app
+alt - w : open /Applications/Arc.app
 alt - t : open /Applications/Alacritty.app
 
 # focus window

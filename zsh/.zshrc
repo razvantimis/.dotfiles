@@ -125,3 +125,4 @@ alias vim="nvim"
 export PATH="/opt/homebrew/opt/postgresql@10/bin:$PATH"
 # $GOPATH
 export GOPATH=$HOME/go
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
