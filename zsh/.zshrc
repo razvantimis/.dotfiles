@@ -126,3 +126,7 @@ export PATH="/opt/homebrew/opt/postgresql@10/bin:$PATH"
 # $GOPATH
 export GOPATH=$HOME/go
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+
+
+# bun completions
+[ -s "/Users/razvan/.bun/_bun" ] && source "/Users/razvan/.bun/_bun"
